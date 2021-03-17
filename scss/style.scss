@@ -136,7 +136,7 @@ m a i n H e a d e r
     }
     hgroup {
         @include flex(center, center, column);
-        height: 90vh;
+        height: 70vh;
         text-align: center;
         width: 50%;
         margin: auto;
@@ -185,4 +185,31 @@ footer {
     text-align: center;
     color: $white;
     padding: 20px;
+}
+/**************************
+s e r v i c e s
+**************************/
+.services {
+    @include flex(space-between, center, row);
+    margin-top: -100px;
+    article {
+        flex: 0 0 25%;
+        color: $white;
+        padding: 50px;
+        text-align: center;
+        background-color: $primary;
+        &:nth-child(even) {
+            background-color: $secondary;
+        }
+        i {
+            font-size: 4rem;
+        }
+        h3 {
+            font-size: 2rem;
+            margin: 20px 0;
+        }
+        button {
+            @include btn;
+        }
+    }
 }
