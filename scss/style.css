@@ -14,6 +14,8 @@ b a s i c   s t y l e s
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 a {
@@ -29,6 +31,13 @@ ul {
 .container {
   width: 80%;
   margin: auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 400;
+  text-shadow: 0 0 2px #080033;
 }
 
 /**************************
@@ -103,5 +112,90 @@ t o p B a r
   -webkit-box-sizing: 0 0 10px #a0a0a0;
           box-sizing: 0 0 10px #a0a0a0;
   background-color: #33a5d7;
+}
+
+/**************************
+m a i n H e a d e r
+**************************/
+.mainHeader {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(49, 119, 181, 0.7)), to(rgba(49, 119, 181, 0.7))), url(../img/header.jpg);
+  background-image: linear-gradient(rgba(49, 119, 181, 0.7), rgba(49, 119, 181, 0.7)), url(../img/header.jpg);
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.mainHeader nav {
+  padding-top: 20px;
+}
+
+.mainHeader nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.mainHeader nav ul a {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-left: 40px;
+}
+
+.mainHeader hgroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 90vh;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  color: #fff;
+}
+
+.mainHeader hgroup p {
+  font-size: 1.1rem;
+}
+
+.mainHeader hgroup button {
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.mainHeader hgroup button:hover {
+  background-color: #fff;
+  color: #3177b5;
 }
 /*# sourceMappingURL=style.css.map */
