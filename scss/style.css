@@ -244,4 +244,21 @@ c o n t a c t
 .contact article p {
   color: #33a5d7;
 }
+
+/**************************
+m a p
+**************************/
+.map iframe {
+  display: block;
+}
+
+/**************************
+f o o t e r
+**************************/
+footer {
+  background-color: #3177b5;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
 /*# sourceMappingURL=style.css.map */

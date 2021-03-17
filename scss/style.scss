@@ -169,3 +169,20 @@ c o n t a c t
         }
     }
 }
+/**************************
+m a p
+**************************/
+.map {
+    iframe {
+        display: block;
+    }
+}
+/**************************
+f o o t e r
+**************************/
+footer {
+    background-color: $primary;
+    text-align: center;
+    color: $white;
+    padding: 20px;
+}
