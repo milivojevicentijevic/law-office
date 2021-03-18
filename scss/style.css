@@ -471,13 +471,13 @@ t e a m
 /**************************
 p e o p l e
 **************************/
-.people {
+.people, .crew {
   background-color: #eaeaea;
   text-align: center;
   color: #fff;
 }
 
-.people .container {
+.people .container, .crew .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -496,7 +496,7 @@ p e o p l e
   padding-bottom: 100px;
 }
 
-.people .container article {
+.people .container article, .crew .container article {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 25%;
           flex: 0 0 25%;
@@ -504,7 +504,7 @@ p e o p l e
   background-color: #3177b5;
 }
 
-.people .container article button {
+.people .container article button, .crew .container article button {
   padding: 10px 40px;
   background-color: transparent;
   border: 2px solid #fff;
@@ -521,24 +521,24 @@ p e o p l e
   border: none;
 }
 
-.people .container article button:hover {
+.people .container article button:hover, .crew .container article button:hover {
   background-color: #fff;
   color: #3177b5;
 }
 
-.people .container article img {
+.people .container article img, .crew .container article img {
   width: 100%;
 }
 
-.people .container article .text {
+.people .container article .text, .crew .container article .text {
   padding: 40px;
 }
 
-.people .container article .text h3 {
+.people .container article .text h3, .crew .container article .text h3 {
   font-size: 2rem;
 }
 
-.people .container article .text h3::after {
+.people .container article .text h3::after, .crew .container article .text h3::after {
   background-color: #fff;
   width: 150px;
   display: block;
@@ -548,11 +548,11 @@ p e o p l e
   margin: 20px auto;
 }
 
-.people .container article:nth-child(even) {
+.people .container article:nth-child(even), .crew .container article:nth-child(even) {
   background-color: #33a5d7;
 }
 
-.people .container article:nth-child(even) button {
+.people .container article:nth-child(even) button, .crew .container article:nth-child(even) button {
   padding: 10px 40px;
   background-color: transparent;
   border: 2px solid #fff;
@@ -568,7 +568,7 @@ p e o p l e
   border: none;
 }
 
-.people .container article:nth-child(even) button:hover {
+.people .container article:nth-child(even) button:hover, .crew .container article:nth-child(even) button:hover {
   background-color: #fff;
   color: #3177b5;
 }
@@ -745,4 +745,8 @@ c o n s u l t a t i o n
   background-color: #fff;
   color: #3177b5;
 }
+
+/**************************
+c r e w 
+**************************/
 /*# sourceMappingURL=style.css.map */
