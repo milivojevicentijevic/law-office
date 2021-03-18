@@ -40,7 +40,7 @@ h1 {
   text-shadow: 0 0 2px #080033;
 }
 
-.borderHeadings, .about article:last-child h2, .consultation article:first-child h2 {
+.borderHeadings, .about article:last-child h2, .consultation article:first-child h2, .consultate article:first-child h2 {
   border: 2px solid #fff;
   padding: 70px;
   color: #fff;
@@ -49,7 +49,7 @@ h1 {
   font-weight: 400;
 }
 
-.borderHeadings span, .about article:last-child h2 span, .consultation article:first-child h2 span {
+.borderHeadings span, .about article:last-child h2 span, .consultation article:first-child h2 span, .consultate article:first-child h2 span {
   font-weight: 700;
 }
 
@@ -604,7 +604,7 @@ t e s t i m o n i a l s
 /**************************
 c o n s u l t a t i o n
 **************************/
-.consultation {
+.consultation, .consultate {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -622,7 +622,7 @@ c o n s u l t a t i o n
           flex-direction: row;
 }
 
-.consultation article:first-child {
+.consultation article:first-child, .consultate article:first-child {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
@@ -649,11 +649,11 @@ c o n s u l t a t i o n
           flex-direction: row;
 }
 
-.consultation article:first-child h2 {
+.consultation article:first-child h2, .consultate article:first-child h2 {
   text-align: left;
 }
 
-.consultation article:last-child {
+.consultation article:last-child, .consultate article:last-child {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
@@ -675,7 +675,7 @@ c o n s u l t a t i o n
           flex-direction: row;
 }
 
-.consultation article:last-child form {
+.consultation article:last-child form, .consultate article:last-child form {
   width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -694,26 +694,26 @@ c o n s u l t a t i o n
           flex-direction: row;
 }
 
-.consultation article:last-child form input {
+.consultation article:last-child form input, .consultate article:last-child form input {
   border: 2px solid #3177b5;
   padding: 10px;
   font-size: 1rem;
   margin-bottom: 20px;
 }
 
-.consultation article:last-child form input[type="text"] {
+.consultation article:last-child form input[type="text"], .consultate article:last-child form input[type="text"] {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 48%;
           flex: 0 0 48%;
 }
 
-.consultation article:last-child form input[type="email"] {
+.consultation article:last-child form input[type="email"], .consultate article:last-child form input[type="email"] {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
 }
 
-.consultation article:last-child form textarea {
+.consultation article:last-child form textarea, .consultate article:last-child form textarea {
   border: 2px solid #3177b5;
   padding: 10px;
   font-size: 1rem;
@@ -722,7 +722,7 @@ c o n s u l t a t i o n
           flex: 0 0 100%;
 }
 
-.consultation article:last-child form button {
+.consultation article:last-child form button, .consultate article:last-child form button {
   padding: 10px 40px;
   background-color: transparent;
   border: 2px solid #fff;
@@ -741,7 +741,7 @@ c o n s u l t a t i o n
           flex: 0 0 100%;
 }
 
-.consultation article:last-child form button:hover {
+.consultation article:last-child form button:hover, .consultate article:last-child form button:hover {
   background-color: #fff;
   color: #3177b5;
 }
@@ -818,5 +818,12 @@ a c c i d e n t s
   content: "";
   margin: 0 0 20px 0;
   margin: 0 auto;
+}
+
+/**************************
+c o n s u l t a t e
+**************************/
+.consultate {
+  background-color: #eaeaea;
 }
 /*# sourceMappingURL=style.css.map */
