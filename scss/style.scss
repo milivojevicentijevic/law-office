@@ -406,3 +406,43 @@ c r e w
 .crew {
     @extend .people;
 }
+/**************************
+a c c i d e n t s
+**************************/
+.accidents {
+    padding: $padding;
+    background-color: $primary;
+    text-align: center;
+    h3 {
+        font-size: 2rem;
+        color: $white;
+    }
+    p {
+        padding: 30px 0;
+    }
+    article {
+        @include flex(space-between, center, row);
+        div {
+            flex: 0 0 24%;
+            color: $tertiary;
+            background-color: $white;
+            margin-bottom: 20px;
+            padding: 20px;
+            transition: $transition;
+            &:hover {
+                background-color: $tertiary;
+                p {
+                    color: $white;
+                }
+            }
+            h4 {
+                font-size: 1.6rem;
+                color: $primary;
+                &::after {
+                    @include underline($primary, 50px);
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

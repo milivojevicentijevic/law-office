@@ -749,4 +749,74 @@ c o n s u l t a t i o n
 /**************************
 c r e w 
 **************************/
+/**************************
+a c c i d e n t s
+**************************/
+.accidents {
+  padding: 100px 0;
+  background-color: #3177b5;
+  text-align: center;
+}
+
+.accidents h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.accidents p {
+  padding: 30px 0;
+}
+
+.accidents article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.accidents article div {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 24%;
+          flex: 0 0 24%;
+  color: #080033;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.accidents article div:hover {
+  background-color: #080033;
+}
+
+.accidents article div:hover p {
+  color: #fff;
+}
+
+.accidents article div h4 {
+  font-size: 1.6rem;
+  color: #3177b5;
+}
+
+.accidents article div h4::after {
+  background-color: #3177b5;
+  width: 50px;
+  display: block;
+  height: 2px;
+  content: "";
+  margin: 0 0 20px 0;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
